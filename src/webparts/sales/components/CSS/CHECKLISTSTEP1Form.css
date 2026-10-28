@@ -1,0 +1,98 @@
+.CheckListTable td,
+.CheckListTable th {
+    border-collapse: collapse;
+    /* border: 1px solid #0fbafe; */
+    border: 1px solid #9b9d9f;
+}
+.CheckListTable{
+    border-collapse: separate !important;
+    border-spacing: 0;
+}
+
+.Heading1 {
+    /* color: #fff;
+    background-color: #3498db; */
+     color: #025d81 !important;
+    background-color: #acacac;
+    font-size: 20px;
+}
+
+.Heading2 {
+    color: #025d81 !important;
+    /* background-color: #a4e2fa; */
+    background-color: #d7d7d7;
+    font-size: 15px;
+}
+
+.Low {
+    /* background-color: #d7e5eb; */
+    background-color: #a0dcf3;
+}
+
+.Medium {
+    /* background-color: #b5c4ca; */
+    background-color: #75cef1;
+}
+
+.High {
+    /* background-color: #8f9da3; */
+    background-color: #3bbdef;
+}
+
+.TopicCell {
+    /* background-color: #71d6fd; */
+    background-color: #edfaff;
+    font-size: 15px;
+    font-weight: bold !important;
+    color: #345260;
+}
+
+.ScoreCell {
+    /* background-color: #71d6fd; */
+    background-color: #edfaff;
+    font-weight: bold !important;
+    color: #345260;
+}
+.AuditScoreCell
+{
+    background-color: #fff;
+    font-size: 30px;
+}
+
+/* custom widths */
+.WPercent-5 {
+    width: 5%;
+}
+
+.WPercent-10 {
+    width: 10%;
+}
+
+.WPercent-15 {
+    width: 15%;
+}
+
+.WPercent-20 {
+    width: 20%;
+}
+
+.WPercent-35 {
+    width: 35%;
+}
+
+.ScoreCell select {
+
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+.divCheckListTable
+{
+    height: 500px;
+    overflow-y: auto;
+}
+tbody.tbodyHeadRows
+{
+    position: sticky;
+     top: 0; 
+}

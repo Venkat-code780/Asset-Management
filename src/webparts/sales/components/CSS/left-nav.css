@@ -1,0 +1,469 @@
+.outer-sidebar {
+  color: black;
+  border-right: 1px solid #efefef;
+  padding-right: 10px;
+}
+
+.sidebar-title {
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+
+/* Added by Ganesh on 06-09-2025 :Start*/
+.master-sidebar-title {
+  color: #106379;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 6px 5px 6px 12px;
+}
+
+.master-sidebar-title a {
+  color: black;
+  padding: 0;
+  border-bottom: 2px solid transparent;
+}
+
+.sidebar-title span svg {
+  padding-right: 5px;
+}
+
+/* Added by Ganesh on 06-09-2025 :End*/
+.navbar a {
+  color: black;
+}
+
+.sidebar-title a {
+  color: black;
+  padding: 0;
+  border-bottom: 2px solid transparent;
+}
+
+/* .nav-click a {
+  border-bottom: 2px solid #1e3473 !important;
+  background-image: linear-gradient(1deg, #e6ecff, #ffffff);
+  color: #1d3371 !important;
+} */
+
+
+.icon-down {
+  float: right;
+}
+
+#sideNavBox {
+  display: none;
+}
+
+#contentBox {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.navbar {
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, .1);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .1)
+}
+
+.navbar-btn {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+
+.wrapper {
+  width: 100%
+}
+
+.sidebar {
+  max-width: 200px;
+  min-width: 200px;
+  padding: 8px 5px;
+  position: relative;
+  transition: all .3s;
+  font-size: 15px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  display: block;
+  /* padding: 4px 6px; */
+}
+
+.left-nav-active a {
+  display: block;
+  color: white;
+  /* color: #6f6969; */
+  padding: 4px 6px;
+  text-decoration: none;
+}
+
+.ul-leftnav {
+  padding-left: 10px;
+}
+
+.ul-leftnav li .sidebar-title {
+  line-height: 1.8;
+  list-style-type: none;
+  padding: 9px 5px;
+  background-color: #f3f3f3;
+  border-radius: 6px;
+}
+
+.ul-leftnav li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.left-nav-active a.active:hover {
+  /* background-color: #1e3574;*/
+  color: #000000 !important;
+  text-decoration: none;
+}
+
+.ul-leftnav li {
+  list-style-type: none;
+  margin: 4px 2px;
+  border-radius: 4px;
+}
+
+.ul-leftnav .ul-leftnav li {
+  position: relative;
+  border: 1px solid #dbdbdb;
+  padding: 3px 5px 3px 12px;
+}
+
+.ul-leftnav .ul-leftnav li a:hover {
+  color: #2c627e;
+}
+
+.ul-leftnav .ul-leftnav li a:hover .ul-leftnav li:after {
+  color: #2c627e;
+}
+
+.ul-leftnav .ul-leftnav li a {
+  padding: 4px 6px;
+  color: #6f6969;
+}
+
+.ul-leftnav .ul-leftnav li.nav-click:after {
+  background-color: #106379;
+}
+
+.ul-leftnav .ul-leftnav li:after {
+  background-color: #606060;
+  border-radius: 100%;
+  content: "";
+  height: 6px;
+  left: 6px;
+  position: absolute;
+  top: 15px;
+  width: 6px;
+}
+
+.left-nav-active.sidebar-title {
+  background: #2c627e !important;
+  color: white;
+}
+
+/* .ul-leftnav li.liViews .sidebar-title {
+    padding-left: 10px;
+} */
+/* .ul-leftnav li a {
+  color: #6f6969;
+} */
+
+.ul-leftnav li.nav-click {
+  background-color: #d1ebf7;
+  border: 1px solid #6fa9c9;
+}
+
+/* .ul-leftnav li a:hover {
+    background-color: #effaff;
+    border-color: #c1dbe9;
+    color: #000;
+} */
+#sidebar .h6 {
+  color: #fff;
+}
+
+#sidebar.active {
+  margin-left: -270px;
+}
+
+#sidebar.active .custom-menu {
+  margin-right: -50px;
+}
+
+#sidebar h1 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+#sidebar h1 .logo {
+  color: #fff;
+}
+
+#sidebar ul.components {
+  padding: 0;
+}
+
+#sidebar ul li {
+  font-size: 16px;
+}
+
+#sidebar ul li>ul {
+  margin-left: 10px;
+}
+
+#sidebar ul li>ul li {
+  font-size: 14px;
+}
+
+#sidebar ul li a {
+  padding: 10px 0;
+  display: block;
+  color: rgba(255, 255, 255, .6);
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+#sidebar ul li a:hover {
+  color: #fff;
+}
+
+.left-nav-active a.active {
+  padding: 0;
+  color: white;
+}
+
+#sidebar ul li.active>a {
+  background: 0 0;
+  color: #fff;
+}
+
+@media(max-width: 991.98px) {
+  #sidebar {
+    margin-left: -270px;
+  }
+
+  #sidebar.active {
+    margin-left: 0;
+  }
+
+  #sidebar .custom-menu {
+    margin-right: -60px !important;
+    top: 10px !important;
+  }
+}
+
+#sidebar .custom-menu {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  margin-right: -20px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+#sidebar .custom-menu .btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 1;
+  position: relative;
+}
+
+.toggle-menu:hover {
+  color: #bbbdff;
+}
+
+.toggle-menu {
+  background-color: #5155bb;
+  color: white;
+}
+
+@media(max-width: 991.98px) {
+  #sidebarCollapse span {
+    display: none;
+  }
+}
+
+#content {
+  width: 100%;
+  padding: 0;
+  /* min-height: 100vh; */
+  min-height: 77vh;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+/*side nav collapse for tablet sceens*/
+@media only screen and (max-width: 796px) {
+  .menu-hide .sidebar {
+    display: none;
+  }
+
+  .menu-icon-outer {
+    display: inline-block !important;
+  }
+}
+
+.menu-hide .menu-icon-outer {
+  top: 12px;
+  left: 2px;
+  background-color: #ffffff;
+  width: 36px;
+  padding: 9px;
+  height: 32px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 12px #2d2d2d;
+}
+
+#content {
+  position: relative;
+}
+
+.active-navbar .click-nav-icon {
+  background: transparent;
+  color: black;
+  margin: 5px 0 0 0;
+}
+
+.click-nav-icon {
+  cursor: pointer;
+  display: block;
+  margin: 10px 10px;
+  text-align: right;
+  background-color: #2c627e;
+  padding: 6px;
+  border-radius: 5px;
+  color: white;
+}
+
+.active-navbar .brd-left-nav {
+  border-right: 1px solid lightgray;
+  /* background-color: #e1e1e1; */
+}
+
+.menu-icon-outer {
+  display: none;
+  top: 22px;
+  left: -30px;
+  position: absolute;
+  z-index: 99999;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.menu-hide .menu-icon {
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.menu-hide .menu-icon span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100% !important;
+  background: #000000;
+  border-radius: 9px;
+  opacity: 1 !important;
+  left: 0 !important;
+  -webkit-transform: rotate(0deg) !important;
+  -moz-transform: rotate(0deg) !important;
+  -o-transform: rotate(0deg) !important;
+  transform: rotate(0deg) !important;
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.menu-hide .menu-icon span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.menu-hide .menu-icon span:nth-child(2) {
+  top: 6px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.menu-hide .menu-icon span:nth-child(3) {
+  top: 12px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.menu-icon {
+  width: 17px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  cursor: pointer;
+}
+
+.menu-icon span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #000000;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.menu-icon span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 0px;
+  left: 8px;
+}
+
+.menu-icon span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.menu-icon span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 0px;
+  left: 8px;
+}
+
+
+
+/*End*/
+
+/* --- Active/Highlight Styling for Sidebar Links --- */

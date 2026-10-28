@@ -1,0 +1,26 @@
+.cursor-pen {
+  /* cursor: url('https://img.icons8.com/ios-filled/50/pencil-tip.png'), auto; */
+  cursor: url('../../assets/pencil-color.png'), auto;
+}
+
+.cursor-eraser {
+  cursor: url('../../assets/eraser.png'), auto;
+}
+
+.cursor-plus {
+  cursor: crosshair;
+}
+
+.faCircle {
+    border: 2px solid;
+    border-radius: 100%;
+    height: 18px;
+    padding: 0;
+    position: relative;
+    top: -2px;
+    width: 18px;
+}
+.sketchCanvas{
+  /* width: 91%; */
+  background-color: white;
+}

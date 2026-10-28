@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.14.0",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "business-sales",
+    "libraryId": "04dbb296-fb29-464e-8bad-b5195b23ff76",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "business-sales",
+    "solutionShortDescription": "business-sales description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

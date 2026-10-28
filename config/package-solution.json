@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "business-sales-client-side-solution-DEV",
+    "id": "04dbb296-fb29-464e-8bad-b5195b23ff76",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "business-sales description"
+      },
+      "longDescription": {
+        "default": "business-sales description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "business-sales Feature",
+        "description": "The feature that activates elements of the business-sales-DEV solution.",
+        "id": "693cc160-93ad-4cdc-9895-32ceb888d441",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/business-sales-DEV.sppkg"
+  }
+}
