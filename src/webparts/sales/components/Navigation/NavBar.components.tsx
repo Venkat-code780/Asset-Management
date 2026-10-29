@@ -147,10 +147,13 @@ class NavBar extends React.Component<NavBarProps, NavBarState> {
 
         const MasterLinks = [
 
-            "Customer Name",
-            "Commodity",
-            "Category",
-            "Dashboard"
+          
+            "Location",
+            "Brand",
+            "AssetType",
+            "Vendor",
+            "AssetModel"
+          
             
         ];
 
